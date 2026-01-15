@@ -1,0 +1,6 @@
+preload = 
+wallpaper {
+  monitor = WAYLAND-1
+  path = ./
+  fit_mode = cover
+}
