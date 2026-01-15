@@ -1,0 +1,31 @@
+/* User custom styles */
+
+/* User custom colors from GitHub waybar.css */
+
+/* Workspaces */
+#workspaces button.active label {
+    color: #53bdfa; /* blue */
+}
+
+/* Battery */
+#battery.charging {
+    color: #7fd962; /* green */
+}
+
+#battery.full {
+    color: #7fd962; /* green */
+}
+
+#battery:not(.charging) {
+    color: #f9af4f; /* yellow */
+}
+
+#battery.warning:not(.charging) {
+    color: #ea6c73; /* red */
+}
+
+/* Bluetooth */
+#bluetooth.connected {
+    color: #53bdfa; /* blue */
+}
+
